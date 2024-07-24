@@ -1,5 +1,5 @@
 .App {
-  margin: 5vmin;
+
 }
 
 .ProjectCard{
@@ -29,13 +29,22 @@
 }
 
 .RightSide {
-  margin-left: 50vmax;
-  height: 70vmax;
   width: 50%;
-  overflow-y: auto;
-  box-sizing: border-box;
 }
 
-.InformationBox {
+.LeftSide {
   width: 50%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+img {
+  max-width: 100%;
 }

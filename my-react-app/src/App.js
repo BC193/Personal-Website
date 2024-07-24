@@ -1,14 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import ScrollableSection from './ScrollableSection';
 import InformationBox from './InformationBox';
+import ScrollableSection from './ScrollableSection';
 
 function App() {
   return (
     <div className="App">
-      <div className="HomePage">
-        <InformationBox></InformationBox>
-        <ScrollableSection></ScrollableSection>
+      <div className="Homepage">
+      <div className="LeftSide">
+          <InformationBox />
+        </div>
+        <div className="RightSide">
+          <ScrollableSection />
+        </div>
       </div>
     </div>
   );
