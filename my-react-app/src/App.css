@@ -1,16 +1,11 @@
 .App {
-
+  background-color: #0B132B; 
+  color: #BBBBBB;
+  padding-right: 20vmin;
 }
 
 .ProjectCard{
-  width: 40vmin;
-  border: 2px solid black;
-  border-radius: 8px;
-}
-
-.ProjectCard img{
-  margin: 2vmin;
-  width: 36vmin;
+  padding: 1vmin;
 }
 
 .ProjectCard h3{
@@ -21,28 +16,58 @@
   margin: 2vmin;
 }
 
+.ProjectCard img{
+  margin: 2vmin;
+  width: 36vmin;
+  border-radius: 8px;
+}
+
 .Homepage {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-between;
-}
-
-.RightSide {
-  width: 50%;
+  justify-content: space-around;
 }
 
 .LeftSide {
-  width: 50%;
+  width: 60%;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
 
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+.RightSide {
+  width: 40%;
+}
+
+.ScrollableSection {
+ margin-top: 20vmin;
+}
+
+.About, .Education, .Projects, .Skills, .Interests {
+  padding: 2vmin;
+}
+
+.About h2, .Education h4, .Projects h2, .Skills h2, .Interests h2{
+  font-size: 4vmin;
+}
+
+.ProjectCard:hover {
+  background-color: #1C2541;
+  color: white;
+  border-radius: 8px;
+
+}
+
+
+
+.InformationBox {
+  margin-top: 20vmin;
+  text-align: center;
+}
+
+.InformationBox h1 {
+  font-size: 6vmin;
 }
 
 img {

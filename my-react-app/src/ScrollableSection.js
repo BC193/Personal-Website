@@ -7,11 +7,11 @@ import Interests from './Interests';
 
 const ScrollableSection = () => {
     return(
-        <div className="RightSide">
+        <div className="ScrollableSection">
             <About />
             <Education />
-            <Skills />
             <Projects />
+            <Skills />
             <Interests />
         </div>         
     );
