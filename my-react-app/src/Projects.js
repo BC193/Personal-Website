@@ -7,11 +7,7 @@ const Projects = () => {
             <h1>Projects</h1>
             <div className="ProjectCard">
                 <img src={project1} alt="Developer Journal image"/>
-                <h3><a 
-                    href="https://github.com/cse110-sp24-group29/cse110-sp24-group29.git"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >Developer Journal</a> | CSS, HTML, JavaScript</h3>
+                <h3>Developer Journal | CSS, HTML, JavaScript</h3>
                 <p>
                     Journaling app that utilizes a full stack to store and display user information and data. 
                     CSS, HTML, and Javascript was used to dynamically update each page in order to allow users to keep track of their projects and software engineering experiences.

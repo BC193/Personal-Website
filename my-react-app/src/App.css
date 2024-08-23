@@ -1,7 +1,12 @@
 .App {
-  background-color: #0B132B; 
+  background-color: #080e20; 
   color: #BBBBBB;
   padding-right: 20vmin;
+}
+
+h1{
+  margin-top: 0vmin ;
+  margin: 1vmin;
 }
 
 .ProjectCard{
@@ -30,14 +35,14 @@
 }
 
 .LeftSide {
-  width: 60%;
+  width: 55%;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
 
 .RightSide {
-  width: 40%;
+  width: 45%;
 }
 
 .ScrollableSection {
@@ -45,21 +50,31 @@
 }
 
 .About, .Education, .Projects, .Skills, .Interests {
-  padding: 2vmin;
+  padding: 1vmin;
+  margin: 2vmin;
+  border-radius: 8px;
+  background-color: #0B132B;
 }
 
-.About h2, .Education h4, .Projects h2, .Skills h2, .Interests h2{
-  font-size: 4vmin;
+.About p, .Projects h2, .Interests h2{
+  margin: 2vmin;
+  margin-top: 0vmin;
+}
+
+.Education p{
+  margin: 1vmin;
+  margin-left: 3vmin;
+}
+ 
+.Education h2{
+  margin-left: 2vmin;
 }
 
 .ProjectCard:hover {
   background-color: #1C2541;
   color: white;
   border-radius: 8px;
-
 }
-
-
 
 .InformationBox {
   margin-top: 20vmin;
